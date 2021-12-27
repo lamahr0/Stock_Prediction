@@ -68,6 +68,12 @@ Dataset used are fetched from Yahoo finance through a python library called "yfi
 
 ## File Descriptions
   
+*main.py: The main file for the web app.<br>
+*Stock Predictor Notebook.ipynb:the notebook that includes the EDA, ARIMA and LSTM models<br>
+*templates: this folder contains the homepage for the webapp<br>
+*static: this includes the css for the webapp and the images.<br>
+  
+  
 ## Analysis Results 
  
   ARIMA results.
