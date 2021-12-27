@@ -9,8 +9,11 @@
 - [Dataset](#dataset)
 - [File Descriptions](#file-descriptions)
 - [Analysis Results](#analysis-results)
+- [Conclusion](#conclusion)
 - [Acknowledgements](#acknowledgements)
-- [References](#References)
+- [References](#references)
+
+  
 
 
 ## Installation 
@@ -87,7 +90,13 @@ Dataset used are fetched from Yahoo finance through a python library called "yfi
   
 ![image](https://user-images.githubusercontent.com/41934760/147471878-e7dd2ca0-311f-45eb-aac6-2fc1029361c9.png)
 
-LSTM did better than ARIMA, this could be due to LSTM being based on neural network while ARIMA is a Statistical model. Also ARIMA might be better for short-term forecasting while LSTM works better for long term forecasting. Moreover, ARIMA requires stationary dataset while the dataset used in this project are not stationary. Another difference between the two models is that LSTM is nonlinear while ARIMA is linear. 
+LSTM did better than ARIMA, this could be due to LSTM being based on neural network while ARIMA is a Statistical model. Also ARIMA might be better for short-term forecasting while LSTM works better for long term forecasting. Moreover, ARIMA requires stationary dataset while the dataset used in this project are not stationary. Another difference between the two models is that LSTM is nonlinear while ARIMA is linear. <br>
+  
+## Conclusion 
+  
+  - Stock Prediction is not an easy task even with deep learning techniques due to the multiple factors that contribute in the price changes such as social and economical factors, even COVID had a significant effect on the prices as seen in the EDA. This project was a new experience for me despite its complexity since it deals with financial data which I've never dealt with before . It was a nice exposure on new algorithms such as ARIMA and LSTM since most of the algorithms I used before were linear regression and classification algorithms. 
+  
+  -
   
 ## Acknowledgements
   Yahoo Finance for providing the data.<br>
