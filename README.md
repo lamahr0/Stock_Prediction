@@ -96,7 +96,7 @@ LSTM did better than ARIMA, this could be due to LSTM being based on neural netw
   
   - Stock Prediction is not an easy task even with deep learning techniques due to the multiple factors that contribute in the price changes such as social and economical factors, even COVID had a significant effect on the prices as seen in the EDA. This project was a new experience for me despite its complexity since it deals with financial data which I've never dealt with before . It was a nice exposure on new algorithms such as ARIMA and LSTM since most of the algorithms I used before were linear regression and classification algorithms. 
   
-  -
+  -In order to improve the model more tuning could be done such as adding more nodes, epochs and batch sizes, or even trying another simpler algorithms such as linear regression algorithms.
   
 ## Acknowledgements
   Yahoo Finance for providing the data.<br>
