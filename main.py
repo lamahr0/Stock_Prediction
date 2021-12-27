@@ -60,7 +60,7 @@ def stock_model():
     model.add(Dense(1))
 
     model.compile(optimizer='adam', loss='mean_squared_error')
-    model.fit(x_train, y_train, batch_size=1, epochs=1)
+    model.fit(x_train, y_train, batch_size=1, epochs=5)
 
     # create the testing dataset
     # create a new array containing scaled values
