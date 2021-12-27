@@ -1,0 +1,98 @@
+<!-- Add your content of head and header -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <title>Stock Predictor</title>
+
+<link href="{{ url_for('static', filename='../static/main.97292821.css') }}" rel="stylesheet"></head>
+
+<body>
+
+ <!-- Add your content of header -->
+<header>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+      </div>
+
+      <div class="navbar-collapse">
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="./index.html#contact-section-container" title="" class="anchor-link"> </a></li>
+            <li>
+                <p>
+                    <a href="./components.html" class="btn btn-default navbar-btn" ></a>
+                </p>
+            </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+
+<!-- Add your site or app content here -->
+<div class="background-image-container white-text-container" style="background-image: url('{{url_for('static' , filename='../static/images/stock.jpg')}}')">
+
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Stocks Predictor</h1>
+                <p class=""></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">About the project</h2>
+            </div>
+            <p>tStock market prediction can be hard for many people as it's affected by social, economical and political factors. One way to predict the
+                prices is stocks prices analysis which is a method for investors to make buying and selling decisions. This app
+            utilizes deep learning algorithm to predict stock prices.</p>
+            <form method="POST">
+    <p>Enter Valid Ticker Name</p>
+    <input name="stock_name">
+    <input type="submit" value="Predict">
+</form>
+            <p>rmse value is: {{rmse}}</p>
+            <p>The stock entered is:{{stock_name}}</p>
+            <img src={{url}} alt="Chart" height="auto" width="100%">
+
+        </div>
+    </div>
+</div>
+
+<div class="section-container section-half-background-image-container">
+    <div class="image-column" style="background-image: url('./assets/images/img-01.jpg')"></div>
+    <div class="container">
+
+        </div>
+    </div>
+</div>
+
+
